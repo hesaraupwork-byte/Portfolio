@@ -36,8 +36,8 @@ export default function ProjectsGrid() {
         <div className="panel-notch top-0 right-0" />
         <div className="panel-notch bottom-0 left-0 rotate-180" />
 
-        <div className="mx-auto max-w-6xl px-6 py-8 sm:px-12 sm:py-10">
-          <h2 className="text-glitch font-extrabold tracking-tight text-black uppercase">
+        <div className="mx-auto max-w-6xl px-6 pt-8 pb-36 sm:px-12 sm:pt-10 sm:pb-40">
+          <h2 className="font-extrabold tracking-tight text-black uppercase">
             <span className="block text-2xl sm:text-3xl">selected</span>
             <span className="block text-5xl sm:text-7xl">projects</span>
           </h2>
@@ -60,8 +60,8 @@ export default function ProjectsGrid() {
                       onClick={() => setActiveCategory(cat)}
                       className={`rounded-full border px-4 py-1.5 text-sm font-medium transition-colors ${
                         activeCategory === cat
-                          ? 'border-black bg-black text-[var(--accent)]'
-                          : 'border-black/25 text-black/70 hover:border-black hover:text-black'
+                          ? 'border-black bg-black font-extrabold text-[var(--accent)]'
+                          : 'border-black/25 text-black/70 hover:border-black hover:text-[var(--accent)] hover:bg-black'
                       }`}
                     >
                       {cat}

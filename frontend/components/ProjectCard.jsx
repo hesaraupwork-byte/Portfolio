@@ -73,7 +73,7 @@ export default function ProjectCard({ project }) {
         </div>
       </MotionLink>
 
-      <h3 className="text-sm font-semibold text-black">{project.title}</h3>
+      <h3 className="text-sm font-extrabold text-black">{project.title}</h3>
     </div>
   );
 }

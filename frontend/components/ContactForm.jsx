@@ -84,7 +84,7 @@ export default function ContactForm() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.4 }}
             transition={{ duration: 0.6 }}
-            className="text-glitch text-5xl font-extrabold tracking-tight uppercase sm:text-7xl"
+            className="text-5xl font-extrabold tracking-tight uppercase sm:text-7xl"
           >
             <span className="text-[var(--foreground)]">contact</span>{' '}
             <span className="text-[var(--accent)]">me</span>
@@ -217,7 +217,7 @@ export default function ContactForm() {
             disabled={status === 'sending'}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.97 }}
-            className="flex items-center justify-center gap-2 rounded-full bg-[var(--accent)] px-6 py-3 text-sm font-semibold text-black disabled:opacity-50"
+            className="flex items-center justify-center gap-2 rounded-full bg-[var(--accent)] px-6 py-3 text-sm font-extrabold text-black disabled:opacity-50"
           >
             {status === 'sending' ? (
               <span className="flex h-5 w-10 items-center justify-center">

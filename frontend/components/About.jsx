@@ -15,7 +15,7 @@ export default function About() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.4 }}
         transition={{ duration: 0.6 }}
-        className="text-glitch text-5xl font-extrabold tracking-tight uppercase sm:text-7xl"
+        className="text-5xl font-extrabold tracking-tight uppercase sm:text-7xl"
       >
         <span className="text-[var(--foreground)]">about</span>{' '}
         <span className="text-[var(--accent)]">me</span>
@@ -33,18 +33,18 @@ export default function About() {
           <img
             src="/about/photo-1.jpg"
             alt="Nadil Hesara"
-            className="h-full w-full rounded-2xl rounded-tr-[48px] object-cover shadow-[0_0_24px_-4px_rgba(57,255,20,0.6)]"
+            className="h-full w-full rounded-2xl rounded-tr-[48px] object-cover"
           />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/about/photo-3.jpg"
             alt="Nadil Hesara"
-            className="row-span-2 h-full w-full rounded-2xl object-cover shadow-[0_0_24px_-4px_rgba(57,255,20,0.6)]"
+            className="row-span-2 h-full w-full rounded-2xl object-cover"
           />
           <img
             src="/about/photo-2.jpg"
             alt="Nadil Hesara"
-            className="h-full w-full rounded-2xl rounded-tr-[48px] object-cover object-[center_18%] shadow-[0_0_24px_-4px_rgba(57,255,20,0.6)]"
+            className="h-full w-full rounded-2xl rounded-tr-[48px] object-cover object-[center_18%]"
           />
         </motion.div>
 

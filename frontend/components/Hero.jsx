@@ -79,7 +79,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
-            className="text-glitch max-w-xl text-5xl font-extrabold tracking-tight uppercase sm:text-6xl lg:text-7xl"
+            className="text-5xl font-extrabold tracking-tight uppercase sm:text-6xl lg:text-7xl"
           >
             Nadil Hesara
           </motion.h1>
@@ -101,7 +101,7 @@ export default function Hero() {
           >
             <a
               href="#projects"
-              className="rounded-full bg-[var(--accent)] px-6 py-3 text-sm font-semibold text-black transition-transform hover:scale-105"
+              className="rounded-full bg-[var(--accent)] px-6 py-3 text-sm font-extrabold text-black transition-transform hover:scale-105"
             >
               View My Work
             </a>
